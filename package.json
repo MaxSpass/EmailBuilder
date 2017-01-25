@@ -15,6 +15,6 @@
     "gulp-inline-css": "^3.1.0",
     "gulp-remove-html-comments": "^1.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^2.2.0"
   }
 }
