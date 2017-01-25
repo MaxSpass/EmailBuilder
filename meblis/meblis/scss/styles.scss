@@ -1,0 +1,236 @@
+@import "foundation";
+body, table.body, p, td, th {
+	line-height: normal;
+}
+// @import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic,cyrillic-ext);
+// font-family: 'PT Sans', sans-serif;
+a, span {
+	-webkit-text-size-adjust:none;
+}
+.body {
+	font-family: Arial;
+}
+.red-phone {
+	color: #ff0000;
+	font-weight: 600;
+	font-size: 36px;	
+}
+.green-text {
+	color: #5ab206;
+	font-weight: 600;
+	font-size: 14px;	
+}
+.no-m {
+	margin: 0px !important;
+}
+.p-l {
+	padding-left: 30px !important;
+}
+.no-p-l {
+	padding-left: 0!important;
+}
+.w600 {
+	width: 600px !important;
+}
+.no-p-r {
+	padding-right: 0!important;
+}
+th.columns.first {
+	padding-left: 8px;
+}
+th.columns.last {
+	padding-right: 8px;
+}
+// .p4px {
+// 	padding-left: 4px;
+// }
+// .p16px {
+// 	padding-left: 16px;
+// }
+.p-0 {
+	padding: 0 !important;
+}
+.33-perc {
+	width: 200px !important;
+}
+.no-p-r {
+	padding-right: 0px !important;
+}
+.menu-color {
+	background-color: #ffe8ce;
+}
+tr {
+	padding: 0 !important;
+}
+.bottom-img {
+	width: 200px;
+}
+table {
+	border-spacing: 0 !important;
+}
+.w100 {
+	width: 605px;
+}
+.bord-it {
+	border-right: 2px solid #f3cda2;
+}
+.p-it {
+	// font-weight: bold;
+	// line-height: 17px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	// font-size: 16px;
+	color: #000000;
+}
+.none {
+	width: 1px;
+	padding: 0 !important;
+}
+.img-menu, .pointer {
+	cursor: pointer;
+}
+.menu-columns {
+	th {
+		padding: 0 !important;
+		// width: 14%;
+		th {
+			// td {
+			// 	width: 150px !important;
+			// }
+		}
+	}
+	img {
+		margin: 0 auto;
+	}
+	p {
+		margin: 0px !important;
+		Margin: 0px !important;
+	}
+}
+.p-t-0 {
+	padding-top: 0px !important;
+}
+.p-r-0 {
+	padding-right: 0px !important;
+}
+.p-l-0 {
+	padding-left: 0px !important;
+}
+.p-b-0 {
+	padding-bottom: 0px !important;
+}
+.p-l-10 {
+	padding-left: 10px !important;
+}
+.p-0 {
+	padding: 0px !important;
+}
+.p-l-16 {
+	padding-left: 16px !important;
+}
+
+.div-stol {
+	background-color: #c3ebe3;
+}
+.div-pred {
+	background-color: #d9b2e2;
+}
+
+.h1-p {
+	color: #000000;
+	letter-spacing: 0;
+	font-weight: 600;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 21px;
+	padding-top: 10px;
+}
+// dubenec_bv@ukr.net
+.h1-pre {
+	color: #000000;
+	line-height: 23px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 14.5px;
+	padding-top: 10px;
+	&-p-r {
+		padding-right: 5px;
+	}
+}
+.inv-spacer {
+	background-color: #ffffff;
+	width: 100%;
+}
+.shkaf-text-color {
+	color: #17548e;
+}
+.row-plashka {
+	th {
+		@extend .p-r-0;
+	}
+}
+//footer
+.bg-footer {
+	background-color: #666666;
+}
+.text-black {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 19px;	
+	color: #000000 !important;
+}
+.contact-us {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 14px !important;
+	color: #ffffff;
+	text-decoration: underline;
+}
+.contact-us-black {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 14px !important;
+	color: #000000;
+	text-decoration: underline;
+}
+.follow-text {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 14px !important;
+	color: #ffffff;
+}
+.numbers {
+	line-height: 19px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 19px;
+	color: #ffffff;
+}
+.small-text {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff !important;	
+}
+.big-number {
+	line-height: 15px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff !important;
+}
+.big-line-h {
+	line-height: 14px !important;
+}
+.soc-ico {
+	display: inline-block;
+}
+///////////////////////////////2 - рассылка
+.top-light-green {
+	background-color: #90d26e;
+}
+.green-text {
+	color: #5ab206;
+	font-weight: 600;
+	font-size: 14px;	
+}
+//////////////20
+.b {
+	border-right: 2px solid red;
+}
