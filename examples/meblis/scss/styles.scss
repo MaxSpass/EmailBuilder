@@ -228,9 +228,76 @@ table {
 .green-text {
 	color: #5ab206;
 	font-weight: 600;
-	font-size: 14px;	
+	font-size: 14px;
 }
 //////////////20
 .b {
 	border-right: 2px solid red;
+}
+//**new phone-numbers**//
+.contact-list {
+	list-style: none;
+	margin: 0;
+	float: right;
+	margin-right: 10px;
+	img {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 11px;
+		margin-bottom: 2.5px;
+	}
+	li a {
+		font-size: 18px;
+		line-height: 23px;
+		color: #09406f;
+	}
+}
+.red-tel {
+	color: #ff0000;
+	font-weight: 600;
+}
+/* --- 01.03.2017 --- */
+table.body {
+	background: #fff;
+	max-width: 600px;
+	height:100%;
+	margin: 0 auto;
+	Margin:0 auto;
+	padding:0;
+	border-collapse:collapse;
+	border-spacing:0;
+	color:#0a0a0a;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:16px;
+	font-weight:400;
+	line-height:19px;
+	text-align:left;
+	vertical-align:top;
+}
+.hn {
+	color: #545454;
+    font-size: 22px;
+    margin-left: 10px;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+.link {
+	&-left {
+		text-align: left;
+	}
+	&-right {
+		text-align: right;
+	}
+}
+$link-color: #008fd2;
+.link-left, .link-right {
+	// margin: 0 0 10px 0;
+	font-size: 17px;
+	color: $link-color;
+	text-decoration: underline;
+	font-weight: 600;
+	display: block;
+	&:visited {
+		color: $link-color;
+	}
 }
