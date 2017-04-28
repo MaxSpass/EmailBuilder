@@ -277,9 +277,10 @@ table.body {
 .hn {
 	color: #545454;
     font-size: 22px;
-    margin-left: 10px;
+    // margin-left: 10px;
     line-height: 35px;
     margin-bottom: 0;
+    text-transform: uppercase;
 }
 .link {
 	&-left {
@@ -291,11 +292,11 @@ table.body {
 }
 $link-color: #008fd2;
 .link-left, .link-right {
-	// margin: 0 0 10px 0;
+	margin: 0 0 15px;
 	font-size: 17px;
 	color: $link-color;
 	text-decoration: underline;
-	font-weight: 600;
+	// font-weight: 600;
 	display: block;
 	&:visited {
 		color: $link-color;
